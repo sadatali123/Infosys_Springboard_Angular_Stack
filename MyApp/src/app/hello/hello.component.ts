@@ -1,11 +1,15 @@
 import { Component } from '@angular/core';
 
-@Component({
+@Component({ 
   selector: 'app-hello',
-  templateUrl: './hello.component.html',
+  templateUrl:'./hello.component.html',
   styleUrls: ['./hello.component.css']
 })
 export class HelloComponent {
-  courseName: string = "Angular";
+  courseName: string = "Angular Course";
+
+  changeName() {
+    this.courseName ="typescript"
+  }
 
 }
