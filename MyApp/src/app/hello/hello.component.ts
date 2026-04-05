@@ -11,5 +11,4 @@ export class HelloComponent {
   changeName() {
     this.courseName ="typescript"
   }
-
 }
