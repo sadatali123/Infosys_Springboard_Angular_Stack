@@ -5,6 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'MyApp';
+
+  export class AppComponent {
+  courses: any[] = [
+    { id: 1, name: 'TypeScript' },
+    { id: 2, name: 'Angular' },
+    { id: 3, name: 'Node JS' },
+    { id: 1, name: 'TypeScript' }
+  ];
 }
